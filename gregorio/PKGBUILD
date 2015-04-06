@@ -19,8 +19,8 @@ sha256sums=("aa40ad963aa7eec828ba614f1dd4b01e01f60333638b961d68700ead13cff71a")
 
 
 prepare() {
-  cd "$srcdir/$pkgbase-$pkgver"
   msg "Configuring..."
+  cd "$srcdir/$pkgbase-$pkgver"
   autoreconf -f -i
   ./configure --prefix=/usr || return 1
   cd "$srcdir/$pkgbase-$pkgver/fonts"
