@@ -32,8 +32,8 @@ Problems with these packaging files can be left on the AUR ([gregorio](https://a
 ##Authors
 
 ###Current
-- Br Anthony VanBerkum (@avbop)
-- Br Elijah Schwab (@eschwab)
+- Br Anthony VanBerkum
+- Br Elijah Schwab
 
 ###Past
 - David Gippner
