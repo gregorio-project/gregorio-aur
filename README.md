@@ -6,8 +6,8 @@ This repository provides files for building Gregorio from the [Arch User Reposit
 
 Two Gregorio packages are available:
 
-- `gregorio` provides the latest [stable release](https://github.com/gregorio-project/gregorio/releases)
-- `gregorio-git` builds from the `develop` branch of the [Gregorio Github repository](https://github.com/gregorio-project/gregorio)
+- `gregorio` provides the latest [stable release](https://github.com/gregorio-project/gregorio/releases).
+- `gregorio-git` builds from the `develop` branch of the [Gregorio Github repository](https://github.com/gregorio-project/gregorio/tree/develop).
 
 ##Usage
 
