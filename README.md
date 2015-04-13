@@ -15,7 +15,7 @@ The easiest way to install packages from the AUR is to use an [AUR helper](https
 
     $ yaourt -S gregorio
 
-To install manually from this repository using `makepkg`:
+To install manually from this repository using [`makepkg`](https://wiki.archlinux.org/index.php/Makepkg):
 
     $ git clone https://github.com/gregorio-project/gregorio-aur.git
     $ cd gregorio-aur/gregorio
