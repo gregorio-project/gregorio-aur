@@ -42,8 +42,8 @@ build() {
 package() {
   cd "$srcdir/$pkgbase/"
   msg "Installing gregorio..."
-  make -j DESTDIR="$pkgdir/" install
+  make -j DESTDIR="$pkgdir/" install || return 1
   msg "Installing fonts and TeX files..."
   cd "$srcdir/$pkgbase/"
-  ./install-gtex.sh dir:$pkgdir/usr/share/texmf-dist
+  ./install-gtex.sh dir:$pkgdir/usr/share/texmf-dist || return 1
 }
