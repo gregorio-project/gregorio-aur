@@ -45,6 +45,16 @@ These files are released to the public domain. See the [Gregorio project](https:
 
 ##Changelog
 
+###2015-07-06
+
+####Changed
+- PKGBUILD for `gregorio` upgraded to v3.0.3.
+
+###2015-06-01
+
+####Changed
+- PKGBUILD for `gregorio` upgraded to v3.0.2.
+
 ###2015-05-15
 
 ####Changed
