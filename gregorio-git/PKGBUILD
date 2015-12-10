@@ -2,7 +2,7 @@
 # Contributor: Br. Elijah Schwab (github - eschwab)
 pkgbase=gregorio-git
 pkgname=$pkgbase
-pkgver=4.0.0_beta2.r2581.14f704c
+pkgver=4.0.0.r2760.fa9febc
 pkgrel=1
 pkgdesc="Command-line tool to typeset Gregorian chant"
 url=http://gregorio-project.github.io
