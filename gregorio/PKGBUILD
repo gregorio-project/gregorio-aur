@@ -3,7 +3,7 @@
 # Contributor: David Gippner davidgippner at googlemail dot com
 pkgbase=gregorio
 pkgname=$pkgbase
-pkgver=4.0.0_rc1
+pkgver=4.0.0
 pkgrel=1
 pkgdesc="Command-line tool to typeset Gregorian chant"
 url=http://gregorio-project.github.io
@@ -13,15 +13,13 @@ depends=("texlive-core" "texlive-fontsextra" "texlive-bin" "texlive-formatsextra
 conflicts=("gregorio-svn" "gregorio-git" "gregoriotex")
 provides=("gregorio")
 install=gregorio.install
-source=("https://github.com/gregorio-project/gregorio/releases/download/v4.0.0-rc1/gregorio-4.0.0-rc1.tar.bz2")
-sha256sums=("45abacbe08610261c268c5fd58f086de9c9fe3e02f8d87db0eaf4c7fe01483cd")
+source=("https://github.com/gregorio-project/gregorio/releases/download/v4.0.0/gregorio-4.0.0.tar.bz2")
+sha256sums=("c7839d6cda9e9b59adc7e5623abb5d8781343a48d00d87865efae55db9d7c2f4")
 
 
 prepare() {
   # Standardise src dir name without using a private variable.
-  #mv "$srcdir/$pkgbase-$pkgver/" "$srcdir/$pkgbase/"
-  # Manually set dir for beta version. TODO: fix this when stable is released.
-  mv "$srcdir/$pkgbase-4.0.0-rc1/" "$srcdir/$pkgbase/"
+  mv "$srcdir/$pkgbase-$pkgver/" "$srcdir/$pkgbase/"
   msg "Configuring..."
   cd "$srcdir/$pkgbase/"
   autoreconf -f -i
