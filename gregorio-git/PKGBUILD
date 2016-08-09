@@ -27,7 +27,7 @@ prepare() {
   msg "Configuring..."
   cd "$srcdir/$pkgbase/"
   autoreconf -f -i
-  ./configure --prefix=/usr || return 1
+  ./configure --prefix=/usr/local || return 1
 }
 
 build() {
@@ -45,5 +45,5 @@ package() {
   make -j DESTDIR="$pkgdir/" install || return 1
   msg "Installing fonts and TeX files..."
   cd "$srcdir/$pkgbase/"
-  ./install-gtex.sh dir:$pkgdir/usr/share/texmf-dist || return 1
+  ./install-gtex.sh dir:$pkgdir/usr/share/texmf || return 1
 }
