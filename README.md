@@ -45,6 +45,12 @@ These files are released to the public domain. See the [Gregorio project](https:
 
 ##Changelog
 
+###2016-08-09
+
+####Changed
+- Both PKGBUILDs updated for compatibility with TeX Live 2016.
+- Build docs for `gregorio-git`.
+
 ###2016-05-30
 
 ####Changed
