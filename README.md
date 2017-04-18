@@ -45,6 +45,11 @@ These files are released to the public domain. See the [Gregorio project](https:
 
 ##Changelog
 
+###2017-04-18
+
+####Changed
+- PKGBUILD for `gregorio-git` upgraded to v5.0.1. This will build and install all three fonts.
+
 ###2016-09-25
 
 ####Changed
