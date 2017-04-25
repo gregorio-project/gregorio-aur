@@ -45,6 +45,11 @@ These files are released to the public domain. See the [Gregorio project](https:
 
 ## Changelog
 
+### 2017-04-25
+
+#### Changed
+- Removed `gregorio.install` for both packages. `texlive-bin` includes a hook for Pacman that does the same work.
+
 ### 2017-04-18
 
 #### Changed

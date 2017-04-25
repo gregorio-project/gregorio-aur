@@ -4,7 +4,7 @@
 pkgbase=gregorio
 pkgname=$pkgbase
 pkgver=5.0.1
-pkgrel=1
+pkgrel=2
 _pkgver_underscores=$(echo $pkgver | sed -e 's/\./_/g')
 pkgdesc="Command-line tool to typeset Gregorian chant"
 url=http://gregorio-project.github.io
