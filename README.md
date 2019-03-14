@@ -13,7 +13,7 @@ Two Gregorio packages are available:
 
 The easiest way to install packages from the AUR is to use an [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers). For example,
 
-    $ yaourt -S gregorio
+    $ yay -S gregorio
 
 To install manually from this repository using [`makepkg`](https://wiki.archlinux.org/index.php/Makepkg):
 
@@ -44,6 +44,11 @@ Problems with these packaging files can be left on the AUR ([gregorio](https://a
 These files are released to the public domain. See the [Gregorio project](https://github.com/gregorio-project/gregorio/tree/master#license) for its license.
 
 ## Changelog
+
+### 2019-03-14
+
+#### Changed
+- PKGBUILD for both `gregorio` and `gregorio-git` upgraded to v5.2.0.
 
 ### 2018-03-26
 
