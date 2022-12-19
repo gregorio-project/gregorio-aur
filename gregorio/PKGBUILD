@@ -4,7 +4,7 @@
 pkgbase=gregorio
 pkgname=$pkgbase
 pkgver=6.0.0
-pkgrel=1
+pkgrel=2
 _pkgver_underscores=$(echo $pkgver | sed -e 's/\./_/g')
 pkgdesc="Command-line tool to typeset Gregorian chant"
 url=http://gregorio-project.github.io
@@ -41,6 +41,10 @@ package() {
   msg "Installing TeX files..."
   cd "$srcdir/$pkgbase/"
   ./install-gtex.sh dir:$pkgdir/usr/share/texmf || return 1
+  msg "Linking docs to /usr/share/doc..."
+  mkdir -p $pkgdir/usr/share/doc/
+  cd $pkgdir/usr/share/doc
+  ln -s ../texmf/doc/luatex/gregoriotex gregorio
   msg "Installing fonts..."
   cd "$srcdir/"
   texlua install_supp_fonts.lua $pkgdir/usr/share/texmf || return 1

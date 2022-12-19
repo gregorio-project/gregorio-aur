@@ -2,13 +2,13 @@
 # Contributor: Br. Elijah Schwab (github - eschwab)
 pkgbase=gregorio-git
 pkgname=$pkgbase
-pkgver=5.2.0.r4342.8d81faff
+pkgver=6.0.0.r4528.c400a14e
 pkgrel=1
 pkgdesc="Command-line tool to typeset Gregorian chant"
 url=http://gregorio-project.github.io
 arch=("i686" "x86_64")
 license=("GPL")
-makedepends=("git" "python" "fontforge")
+makedepends=("git" "python2" "fontforge")
 depends=("texlive-core" "texlive-fontsextra" "texlive-bin" "texlive-formatsextra" "texlive-latexextra")
 conflicts=("gregorio-svn" "gregorio" "gregoriotex")
 provides=("gregorio")
