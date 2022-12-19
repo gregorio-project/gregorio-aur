@@ -45,6 +45,12 @@ These files are released to the public domain. See the [Gregorio project](https:
 
 ## Changelog
 
+### 2022-12-18
+
+#### Changed
+- PKGBUILD for `gregorio` changed to link docs to `/usr/share/docs/gregorio`.
+- PKGBUILD for `gregorio-git` changed to specify `python2` in `makedepends`.
+
 ### 2021-03-14
 
 #### Changed
