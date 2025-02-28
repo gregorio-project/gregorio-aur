@@ -32,10 +32,10 @@ Problems with these packaging files can be left on the AUR ([gregorio](https://a
 ## Authors
 
 ### Current
-- Br Anthony VanBerkum
-- Br Elijah Schwab
+- Rev Elijah Schwab
 
 ### Past
+- Br Anthony VanBerkum
 - David Gippner
 - Laércio de Sousa
 
@@ -44,6 +44,11 @@ Problems with these packaging files can be left on the AUR ([gregorio](https://a
 These files are released to the public domain. See the [Gregorio project](https://github.com/gregorio-project/gregorio/tree/master#license) for its license.
 
 ## Changelog
+
+### 2025-02-28
+
+#### Changed
+- Update Maintaner / Contributors
 
 ### 2021-03-14
 

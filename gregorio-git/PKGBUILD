@@ -1,5 +1,5 @@
-# Maintainer: Br Anthony VanBerkum <anthonyvbop AT gmail DOT com>
-# Contributor: Br. Elijah Schwab (github - eschwab)
+# Maintainer: Rev Elijah Schwab (github - eschwab)
+# Contributor: Br Anthony VanBerkum <anthonyvbop AT gmail DOT com>
 pkgbase=gregorio-git
 pkgname=$pkgbase
 pkgver=5.2.0.r4342.8d81faff
