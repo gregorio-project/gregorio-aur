@@ -9,7 +9,7 @@ url=http://gregorio-project.github.io
 arch=("i686" "x86_64")
 license=("GPL")
 makedepends=("git" "python" "fontforge")
-depends=("texlive-core" "texlive-fontsextra" "texlive-bin" "texlive-formatsextra" "texlive-latexextra")
+depends=("texlive-basic" "texlive-fontsextra" "texlive-bin" "texlive-formatsextra" "texlive-latexextra")
 conflicts=("gregorio-svn" "gregorio" "gregoriotex")
 provides=("gregorio")
 source=("$pkgbase::git+https://github.com/gregorio-project/gregorio.git#branch=develop")
